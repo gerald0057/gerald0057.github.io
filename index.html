@@ -30,11 +30,17 @@
 </ul>
 <!-- tocstop -->
 
-<h2 id="核心层"><a href="#核心层" class="headerlink" title="核心层"></a>核心层</h2><p>核心层实现于”Utilities/ymodom.c”，主要完成了基于Ymodem协议的握手和收发业务，向上层应用提供了收发API，需要提供收发的控制器，端口设备，端口开启的参数配置，第一个数据块的处理实现函数on_begin，之后数据块的处理实现函数on_data，可选的收发结束处理函数实现on_end，以及握手的timeout设置；</p></div><a class="article-more button is-small size-small" href="/2020/07/15/Ymodem-RTT/#more">阅读更多</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-07-14T15:45:08.000Z" title="2020-07-14T15:45:08.000Z">2020-07-14</time><span class="level-item">2 分钟 读完 (大约 258 个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2020/07/14/Ubuntu%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/">Ubuntu基础配置记录</a></h1><div class="content"><!-- toc -->
+<h2 id="核心层"><a href="#核心层" class="headerlink" title="核心层"></a>核心层</h2><p>核心层实现于”Utilities/ymodom.c”，主要完成了基于Ymodem协议的握手和收发业务，向上层应用提供了收发API，需要提供收发的控制器，端口设备，端口开启的参数配置，第一个数据块的处理实现函数on_begin，之后数据块的处理实现函数on_data，可选的收发结束处理函数实现on_end，以及握手的timeout设置；</p></div><a class="article-more button is-small size-small" href="/2020/07/15/Ymodem-RTT/#more">阅读更多</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-07-14T15:45:08.000Z" title="2020-07-14T15:45:08.000Z">2020-07-14</time><span class="level-item">2 分钟 读完 (大约 326 个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2020/07/14/Ubuntu%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/">Ubuntu基础配置记录</a></h1><div class="content"><!-- toc -->
 
 <ul>
 <li><a href="#换源">换源</a></li>
 <li><a href="#常用apt指令">常用apt指令</a></li>
+<li><a href="#git配置代理">Git配置代理</a><ul>
+<li><a href="#设置代理">设置代理</a></li>
+<li><a href="#取消代理">取消代理</a></li>
+<li><a href="#查看代理">查看代理</a></li>
+</ul>
+</li>
 </ul>
 <!-- tocstop -->
 
